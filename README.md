@@ -29,24 +29,43 @@ Aquest treball se centra en la implementació de tècniques com Bag of Visual Wo
 
 Per al correcte funcionament de tot el projecte, s'hauria de crear un directori local que segueixi la següent estructura:
 PROJECT_ROOT/
+
 ├── APC/
+
 │   ├── CAS_KAGGLE/
+
 │   │   ├── FRAME-PREDICTION/
+
 │   │   │   ├── FRAMES__FINALS/
+
 │   │   │   │   ├── FRAMES_DATASET_FINAL.csv
+
 │   │   │   │   ├── histograms.npy
+
 │   │   │   │   ├── rutas_validas.npy
+
 │   │   │   │   ├── rutas_validas_ordenadas.npy
+
 │   │   │   │   ├── descriptors.npz
+
 │   │   │   │   ├── descriptors_ordenats.npz
+
 │   │   │   │   ├── ...
+
 │   │   │   │   ├── FRAMES_GODFATHER/
+
 │   │   │   │   │   ├── frame_1.jpg
+
 │   │   │   │   │   ├── frame_2.jpg
+
 │   │   │   │   │   ├── ...
+
 │   │   │   │   ├── FRAMES_SHINING/
+
 │   │   │   │   │   ├── frame_1.jpg
+
 │   │   │   │   │   ├── frame_2.jpg
+
 │   │   │   │   │   ├── ...
 
 1. **Preparar el dataset**
@@ -63,8 +82,8 @@ Un cop fet això estaria creada la base de dades. L'únic que haurieu de fer és
    - De la mateixa manera que amb els frames, GITHUB tampoc és capaç de suportar el pes dels descriptors. Aquests no són necessaris per a l'execució, ja que ja hi ha els histogrames. Si es necessiten els podem proporcionar per altres interfícies posant-vos en contacte amb nosaltres (Apartat de contacte). 
 
 
-
 3. **Predicció pel·lícula**
+
 
    - Exemple d’ús per predir la pel·lícula d’un frame:
 
